@@ -1,0 +1,65 @@
+@import "https://fonts.googleapis.com/css?family=Share+Tech+Mono";
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7")
+      format("svg");
+}
+h1 {
+  margin-top: 50px;
+}
+.result {
+  display: block;
+  width: 100%;
+  background-color: black;
+  text-align: right;
+  font-size: 40px;
+}
+
+.calc-box {
+  width: 400px;
+  margin: 100px auto;
+  height: 400px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+.grid {
+  background-color: #1d3849;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: #c2c2d6;
+  font-family: Digital;
+}
+
+.btn {
+  font-size: 30px;
+  margin: 5px;
+}
+.equal {
+  grid-row: 3/5;
+  grid-column: 4;
+}
+
+.mini-grid {
+  background-color: #1d3849;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.zero {
+  grid-column: 1/3;
+}
